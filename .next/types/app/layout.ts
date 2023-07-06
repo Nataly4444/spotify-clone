@@ -1,4 +1,4 @@
-// File: /Users/NATALIA/Documents/spotify-clone/app/layout.tsx
+// File: /Users/nataly/Documents/GitHub/spotify-clone/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
