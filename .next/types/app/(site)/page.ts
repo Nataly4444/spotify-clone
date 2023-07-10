@@ -1,4 +1,4 @@
-// File: /Users/NATALIA/Documents/spotify-clone/app/(site)/page.tsx
+// File: /Users/nataly/Documents/GitHub/spotify-clone/app/(site)/page.tsx
 import * as entry from '../../../../app/(site)/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

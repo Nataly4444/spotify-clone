@@ -48,6 +48,38 @@
         "async": false
       }
     },
+    "(app-client)/./providers/SupabaseProvider.tsx": {
+      "*": {
+        "id": "(sc_client)/./providers/SupabaseProvider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./providers/UserProvider.tsx": {
+      "*": {
+        "id": "(sc_client)/./providers/UserProvider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./providers/ModalProvider.tsx": {
+      "*": {
+        "id": "(sc_client)/./providers/ModalProvider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./providers/ToasterProvider.tsx": {
+      "*": {
+        "id": "(sc_client)/./providers/ToasterProvider.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./components/Header.tsx": {
       "*": {
         "id": "(sc_client)/./components/Header.tsx",
@@ -67,7 +99,7 @@
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/client/components/error-boundary.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -75,7 +107,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -83,7 +115,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/client/components/app-router.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -91,7 +123,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -99,7 +131,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/client/components/layout-router.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -107,7 +139,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -115,7 +147,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -123,7 +155,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -131,7 +163,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -139,7 +171,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -147,15 +179,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Figtree\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}": {
-      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Figtree\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/NATALIA/Documents/spotify-clone/components/Sidebar.tsx": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/components/Sidebar.tsx": {
       "id": "(app-client)/./components/Sidebar.tsx",
       "name": "*",
       "chunks": [
@@ -163,7 +187,47 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/app/globals.css": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/providers/SupabaseProvider.tsx": {
+      "id": "(app-client)/./providers/SupabaseProvider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nataly/Documents/GitHub/spotify-clone/providers/UserProvider.tsx": {
+      "id": "(app-client)/./providers/UserProvider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nataly/Documents/GitHub/spotify-clone/providers/ModalProvider.tsx": {
+      "id": "(app-client)/./providers/ModalProvider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nataly/Documents/GitHub/spotify-clone/providers/ToasterProvider.tsx": {
+      "id": "(app-client)/./providers/ToasterProvider.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nataly/Documents/GitHub/spotify-clone/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Figtree\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}": {
+      "id": "(app-client)/./node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Figtree\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"font\"}",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/nataly/Documents/GitHub/spotify-clone/app/globals.css": {
       "id": "(app-client)/./app/globals.css",
       "name": "*",
       "chunks": [
@@ -171,7 +235,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/components/Header.tsx": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/components/Header.tsx": {
       "id": "(app-client)/./components/Header.tsx",
       "name": "*",
       "chunks": [
@@ -179,7 +243,7 @@
       ],
       "async": false
     },
-    "/Users/NATALIA/Documents/spotify-clone/components/ListItem.tsx": {
+    "/Users/nataly/Documents/GitHub/spotify-clone/components/ListItem.tsx": {
       "id": "(app-client)/./components/ListItem.tsx",
       "name": "*",
       "chunks": [
@@ -189,9 +253,9 @@
     }
   },
   "entryCSSFiles": {
-    "/Users/NATALIA/Documents/spotify-clone/app/layout": [
+    "/Users/nataly/Documents/GitHub/spotify-clone/app/layout": [
       "static/css/app/layout.css"
     ],
-    "/Users/NATALIA/Documents/spotify-clone/app/(site)/page": []
+    "/Users/nataly/Documents/GitHub/spotify-clone/app/(site)/page": []
   }
 }
