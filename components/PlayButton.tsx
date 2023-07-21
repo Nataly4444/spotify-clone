@@ -22,7 +22,7 @@ const PlayButton = () => {
     >
       <FaPlay className="text-black" />
     </button>
-   );
+    );
 }
- 
+
 export default PlayButton;
